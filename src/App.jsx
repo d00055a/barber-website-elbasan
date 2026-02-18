@@ -7,17 +7,25 @@ import Location from "./components/Location";
 import Footer from "./components/Footer";
 
 function App() {
+
   return (
     <>
+
       <Header />
+
+    <main>
       <Hero />
       <Services />
       <Gallery />
       <About />
       <Location />
+    </main>
+
       <Footer />
+      
     </>
   );
+
 }
 
 export default App;
