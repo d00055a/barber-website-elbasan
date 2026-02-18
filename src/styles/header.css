@@ -1,0 +1,66 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(17, 17, 17, 0.95);
+  backdrop-filter: blur(5px);
+  padding: 15px 0;
+  z-index: 1000;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h2 {
+  color: gold;
+}
+
+.hamburger {
+  font-size: 24px;
+  color: gold;
+  cursor: pointer;
+}
+
+.nav {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  background-color: #1a1a1a;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+.nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.nav a:hover {
+  color: gold;
+}
+
+
+@media (min-width: 768px) {
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav {
+    position: static;
+    display: flex !important;
+    flex-direction: row;
+    width: auto;
+    background: none;
+    padding: 0;
+    gap: 25px;
+  }
+}
