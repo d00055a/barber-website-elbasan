@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import { useState } from "react";
+import "../styles/header.css";
+
 
 function Header() {
 
@@ -9,27 +11,28 @@ function Header() {
       <div className="container header-content">
 
         <div className="logo">
-          <h2>Barber Elbasan</h2>
+          <a href="#hero">Barber Elbasan</a>
         </div>
 
-         <nav className={`nav ${menuOpen ? "active" : ""}`}>
+        <nav className={`nav ${menuOpen ? "active" : ""}`}>
           <a href="#hero" onClick={() => setMenuOpen(false)}>Home</a>
           <a href="#services" onClick={() => setMenuOpen(false)}>Shërbimet</a>
           <a href="#gallery" onClick={() => setMenuOpen(false)}>Galeria</a>
-          <a href="#contact" onClick={() => setMenuOpen(false)}>Kontakt</a>
-         </nav>
+          <a href="#footer" onClick={() => setMenuOpen(false)}>Kontakt</a>
+        </nav>
 
-        <div 
+        <button
           className="hamburger"
           onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
         >
           ☰
-        </div>
+        </button>
 
       </div>
     </header>
   );
-  
+
 }
 
 export default Header;
