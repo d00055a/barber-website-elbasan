@@ -7,7 +7,7 @@ function Services() {
   return (
     <section id="services" className="services">
       <div className="container">
-        
+
         <h2>Shërbimet Tona</h2>
 
         <div className="services-grid">
@@ -52,6 +52,7 @@ function Services() {
           </div>
 
         </div>
+        
       </div>
     </section>
   );
