@@ -10,14 +10,12 @@
   text-align: center;
 }
 
-/* Overlay */
 .hero-overlay {
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* Content */
 .hero-content {
   position: relative;
   z-index: 2;
@@ -34,7 +32,6 @@
   margin-bottom: 30px;
 }
 
-/* Buttons */
 .hero-buttons {
   display: flex;
   flex-direction: column;
@@ -67,6 +64,7 @@
   color: black;
 }
 
+/* DESKTOP */
 @media (min-width: 768px) {
 
   .hero h1 {
