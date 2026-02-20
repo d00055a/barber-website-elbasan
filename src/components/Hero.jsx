@@ -8,7 +8,7 @@ function Hero() {
 
     <div className="container hero-content">
       <h1>Berber Profesional në Elbasan</h1>
-      <p>Ofrojmë qethje moderne, skin fade dhe modelim mjekre me përkujdesje maksimale 
+      <p>Ofrojmë qethje moderne, modelim mjekre dhe trajtim fytyre me përkujdesje maksimale 
          dhe stil të personalizuar për çdo klient.</p>
 
       <div className="hero-buttons">
