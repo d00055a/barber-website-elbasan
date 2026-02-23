@@ -11,7 +11,7 @@ function Header() {
       <div className="container header-content">
 
         <div className="logo">
-          <a href="#hero">Barber Elbasan</a>
+          <a href="#hero">Barber Shop Rois</a>
         </div>
 
         <nav className={`nav ${menuOpen ? "active" : ""}`}>
