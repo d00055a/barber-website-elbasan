@@ -1,0 +1,45 @@
+.about {
+  background-color: #1a1a1a;
+  padding: 80px 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about-text h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.about-text p {
+  color: #ccc;
+  margin-bottom: 15px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .about-content {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-text {
+    flex: 1;
+  }
+
+  .about-image {
+    flex: 1;
+  }
+}
