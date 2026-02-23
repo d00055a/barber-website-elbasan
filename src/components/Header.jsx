@@ -18,7 +18,8 @@ function Header() {
           <a href="#hero" onClick={() => setMenuOpen(false)}>Home</a>
           <a href="#services" onClick={() => setMenuOpen(false)}>Shërbimet</a>
           <a href="#gallery" onClick={() => setMenuOpen(false)}>Galeria</a>
-          <a href="#footer" onClick={() => setMenuOpen(false)}>Kontakt</a>
+          <a href="#about" onClick={() => setMenuOpen(false)}>Rreth Nesh</a>
+          <a href="#contact" onClick={() => setMenuOpen(false)}>Kontakt</a>
         </nav>
 
         <button
