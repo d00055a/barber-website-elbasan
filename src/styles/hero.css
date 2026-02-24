@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: 100vh;
+  min-height: 100svh;
   background-image: url("../assets/images/hero.webp");
   background-size: cover;
   background-position: center;
