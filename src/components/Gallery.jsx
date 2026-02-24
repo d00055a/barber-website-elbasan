@@ -11,27 +11,27 @@ function Gallery() {
 
         <div className="gallery-grid">
           <div className="gallery-item large">
-            <img src="/src/assets/images/gallery1.webp" alt="Berber duke prere floke" />
+            <img src="/src/assets/images/gallery1.webp" alt="Berber duke prere floke" loading="lazy"/>
           </div>
 
           <div className="gallery-item">
-            <img src="/src/assets/images/gallery2.webp" alt="Prerje moderne per meshkuj" />
+            <img src="/src/assets/images/gallery2.webp" alt="Prerje moderne per meshkuj" loading="lazy"/>
           </div>
 
           <div className="gallery-item">
-            <img src="/src/assets/images/gallery3.webp" alt="Skin fade profesional" />
+            <img src="/src/assets/images/gallery3.webp" alt="Skin fade profesional" loading="lazy"/>
           </div>
 
           <div className="gallery-item">
-            <img src="/src/assets/images/gallery4.webp" alt="Ambient berber shop" />
+            <img src="/src/assets/images/gallery4.webp" alt="Ambient berber shop" loading="lazy"/>
           </div>
 
           <div className="gallery-item">
-            <img src="/src/assets/images/gallery5.webp" alt="Vegla profesionale berberi" />
+            <img src="/src/assets/images/gallery5.webp" alt="Vegla profesionale berberi" loading="lazy"/>
           </div>
 
           <div className="gallery-item">
-            <img src="/src/assets/images/gallery6.webp" alt="Pamje berber shop" />
+            <img src="/src/assets/images/gallery6.webp" alt="Pamje berber shop" loading="lazy"/>
           </div>
 
         </div>
