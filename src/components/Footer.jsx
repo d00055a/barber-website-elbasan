@@ -9,7 +9,7 @@ function Footer() {
 
         <div className="footer-brand">
           <h3>Barber Shop Rois</h3>
-          <p>🌍Jeta nuk është perfekte, por flokët tuaj mund të jenë🌍</p>
+          <p>Jeta nuk është perfekte, por flokët tuaj mund të jenë</p>
         </div>
 
         <div className="footer-contact">
