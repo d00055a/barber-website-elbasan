@@ -1,3 +1,4 @@
+import aboutImg from "../assets/images/gallery1.webp";
 
 import "../styles/about.css";
 
@@ -23,7 +24,7 @@ function About() {
         </div>
 
         <div className="about-image">
-          <img src="/src/assets/images/gallery1.webp" alt="Ambient modern berber shop në Elbasan" loading="lazy"/>
+          <img src={aboutImg} alt="Ambient modern berber shop në Elbasan" loading="lazy"/>
         </div>
 
       </div>

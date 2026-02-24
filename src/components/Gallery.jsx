@@ -1,4 +1,9 @@
-
+import img1 from "../assets/images/gallery1.webp";
+import img2 from "../assets/images/gallery2.webp";
+import img3 from "../assets/images/gallery3.webp";
+import img4 from "../assets/images/gallery4.webp";
+import img5 from "../assets/images/gallery5.webp";
+import img6 from "../assets/images/gallery6.webp";
 import "../styles/gallery.css";
 
 function Gallery() {
@@ -11,27 +16,27 @@ function Gallery() {
 
         <div className="gallery-grid">
           <div className="gallery-item large">
-            <img src="/src/assets/images/gallery1.webp" alt="Berber duke prere floke" loading="lazy"/>
+            <img src={img1} alt="Berber duke prere floke" loading="lazy"/>
           </div>
 
           <div className="gallery-item">
-            <img src="/src/assets/images/gallery2.webp" alt="Prerje moderne per meshkuj" loading="lazy"/>
+            <img src={img2} alt="Prerje moderne per meshkuj" loading="lazy"/>
           </div>
 
           <div className="gallery-item">
-            <img src="/src/assets/images/gallery3.webp" alt="Skin fade profesional" loading="lazy"/>
+            <img src={img3} alt="Skin fade profesional" loading="lazy"/>
           </div>
 
           <div className="gallery-item">
-            <img src="/src/assets/images/gallery4.webp" alt="Ambient berber shop" loading="lazy"/>
+            <img src={img4} alt="Ambient berber shop" loading="lazy"/>
           </div>
 
           <div className="gallery-item">
-            <img src="/src/assets/images/gallery5.webp" alt="Vegla profesionale berberi" loading="lazy"/>
+            <img src={img5} alt="Vegla profesionale berberi" loading="lazy"/>
           </div>
 
           <div className="gallery-item">
-            <img src="/src/assets/images/gallery6.webp" alt="Pamje berber shop" loading="lazy"/>
+            <img src={img6} alt="Pamje berber shop" loading="lazy"/>
           </div>
 
         </div>
