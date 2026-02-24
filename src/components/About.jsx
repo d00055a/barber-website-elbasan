@@ -23,7 +23,7 @@ function About() {
         </div>
 
         <div className="about-image">
-          <img src="/src/assets/images/gallery1.webp" alt="Ambient modern berber shop në Elbasan" />
+          <img src="/src/assets/images/gallery1.webp" alt="Ambient modern berber shop në Elbasan" loading="lazy"/>
         </div>
 
       </div>
