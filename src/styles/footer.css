@@ -7,13 +7,13 @@
 .footer-content {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  margin-bottom: 16px;
+  gap: 42px;
 }
 
 .footer h3 {
   color: gold;
-  margin-bottom: 22px;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .footer p {
