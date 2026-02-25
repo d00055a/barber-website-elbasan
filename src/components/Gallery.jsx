@@ -16,11 +16,11 @@ function Gallery() {
 
         <div className="gallery-grid">
           <div className="gallery-item large">
-            <img src={img1} alt="Berber duke prere floke" loading="lazy"/>
+            <img src={img1} alt="Pamje berber shop" loading="lazy"/>
           </div>
 
           <div className="gallery-item">
-            <img src={img2} alt="Prerje moderne per meshkuj" loading="lazy"/>
+            <img src={img2} alt="Modelim mjekre modern per meshkuj" loading="lazy"/>
           </div>
 
           <div className="gallery-item">
@@ -28,15 +28,15 @@ function Gallery() {
           </div>
 
           <div className="gallery-item">
-            <img src={img4} alt="Ambient berber shop" loading="lazy"/>
+            <img src={img4} alt="Profesionalizem i larte ne berberi" loading="lazy"/>
           </div>
 
           <div className="gallery-item">
-            <img src={img5} alt="Vegla profesionale berberi" loading="lazy"/>
+            <img src={img5} alt="Perkujdesje maksimale dhe stil i personalizuar" loading="lazy"/>
           </div>
 
           <div className="gallery-item">
-            <img src={img6} alt="Pamje berber shop" loading="lazy"/>
+            <img src={img6} alt="Qethje moderne" loading="lazy"/>
           </div>
 
         </div>
