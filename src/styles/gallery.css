@@ -45,4 +45,15 @@
     grid-row: span 2;
   }
 
+  .gallery-item img {
+    object-position: center 39.5%;
+  }
+
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .gallery-item {
+    height: 320px;  
+  }
 }
