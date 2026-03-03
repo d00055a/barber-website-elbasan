@@ -3,7 +3,7 @@
 ```md
 ## Preview
 
-![Barber Website Preview](screenshot.png)
+![Barber Website Preview](./screenshot.png)
 ```
 
 ## Overview
