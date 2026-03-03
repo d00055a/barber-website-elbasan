@@ -1,5 +1,10 @@
 # Barber Shop Website – Elbasan
 
+```md
+## Preview
+
+![Barber Website Preview](./screenshot.png)
+```
 
 ## Overview
 
@@ -137,3 +142,7 @@ This project was built to demonstrate:
 - Debugging layout issues across multiple screen sizes
 - Structuring real client projects professionally
 - Writing clean commit history and project documentation
+
+## License
+
+This project was built for a local business. Code structure and layout can be reused for portfolio and educational purposes.
