@@ -92,7 +92,7 @@ npm run build
 
 Lighthouse Results:
 
-- Performance: 84 (Mobile) / 98 (Desktop)
+- Performance: 90 (Mobile) / 99 (Desktop)
 - Accessibility: 100
 - Best Practices: 100
 - SEO: 100
