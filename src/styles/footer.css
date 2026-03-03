@@ -1,6 +1,6 @@
 .footer {
   background-color: #1a1a1a;
-  padding: 60px 17px 30px;
+  padding: 60px 20px 30px;
   color: #ccc;
 }
 
@@ -12,8 +12,7 @@
 
 .footer h3 {
   color: gold;
-  margin-top: 0;
-  margin-bottom: 8px;
+  margin: 0 0 8px;
 }
 
 .footer p {
@@ -23,12 +22,10 @@
 
 .footer-brand {
   align-self: flex-start;
-  margin-top: -5px;
 }
 
 .footer-contact {
   margin-bottom: 15px;
-  padding-right: 26px;
 }
 
 .footer-social a:hover {
@@ -37,7 +34,7 @@
 
 .footer-bottom {
   border-top: 1px solid #333;
-  padding-top: 43px;
+  padding-top: 30px;
   text-align: center;
   font-size: 13px;
 }
@@ -77,10 +74,7 @@
   .footer-content {
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .footer .container {
-    transform: translateX(-28px);
+    align-items: flex-start;
   }
 
 }
