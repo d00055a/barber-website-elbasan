@@ -4,7 +4,7 @@
 ## Preview
 
 ![Barber Website Preview](./screenshot.png)
-```
+
 
 ## Overview
 
