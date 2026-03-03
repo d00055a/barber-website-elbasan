@@ -15,7 +15,7 @@ function Gallery() {
         <h2>Galeria</h2>
 
         <div className="gallery-grid">
-          <div className="gallery-item large">
+          <div className="gallery-item featured">
             <img src={img1} alt="Pamje berber shop" loading="lazy"/>
           </div>
 
