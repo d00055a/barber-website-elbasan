@@ -1,6 +1,6 @@
 # Barber Shop Website – Elbasan
 
-```md
+
 ## Preview
 
 ![Barber Website Preview](./screenshot.png)
