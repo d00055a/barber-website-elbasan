@@ -11,7 +11,7 @@
 This project is a modern, responsive promotional website developed for a local barber shop in Elbasan, Albania.
 
 The goal of this project was to create a clean, dark-themed, professional online presence to improve local visibility, 
-showcase services, and integrate direct customer contact via WhatsApp and Google Maps.
+showcase services and integrate direct customer contact via WhatsApp and Google Maps.
 
 The website was built using React and deployed to production using Vercel.
 
