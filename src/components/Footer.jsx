@@ -1,5 +1,6 @@
 import { Instagram } from "lucide-react";
 import { FaTiktok } from "react-icons/fa";
+import { Facebook } from "lucide-react";
 import "../styles/footer.css";
 
 function Footer() {
@@ -28,6 +29,12 @@ function Footer() {
              className="social-link">
             <FaTiktok size={18} />
             <span>TikTok</span>
+          </a>
+
+          <a href="https://www.facebook.com/share/1CH5H3DFTw/" target="_blank" rel="noopener noreferrer" 
+             className="social-link">
+            <Facebook size={18} />
+            <span>Facebook</span>
           </a>
         </div>
 
